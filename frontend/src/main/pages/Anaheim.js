@@ -8,7 +8,8 @@ export default function Anaheim() {
         <p>
          <b>>Anaheim, California</b> is a large town in Orange County.
          It is a popular tourist destination because it is home to the 
-	 Disneyland as well as the Anaheim Convention Center. 
+	 Disneyland as well as the Anaheim Convention Center. It originally
+	 was an agricultural community until Disneyland opened in 1955.
         </p>
         <p>Added by Jason V.</p>
       </div>
