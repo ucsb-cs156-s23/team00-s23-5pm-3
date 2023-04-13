@@ -6,8 +6,9 @@ import ArroyoGrandePage from "main/pages/ArroyoGrandePage";
 import CupertinoPage from "main/pages/CupertinoPage";
 import SanJosePage from "main/pages/SanJosePage";
 import SanMateoPage from "main/pages/SanMateoPage";
-
+import RedmondPage from "main/pages/RedmondPage";
 import "bootstrap/dist/css/bootstrap.css";
+
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/towns/Cupertino" element={<CupertinoPage />} />
         <Route exact path="/towns/SanJose" element={<SanJosePage />} />
         <Route exact path="/towns/SanMateo" element={<SanMateoPage />} />
+        <Route exact path="/towns/Redmond" element={<RedmondPage />} />
       </Routes>
     </BrowserRouter>
   );
