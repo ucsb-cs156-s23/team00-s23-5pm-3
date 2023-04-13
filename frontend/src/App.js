@@ -7,6 +7,7 @@ import CupertinoPage from "main/pages/CupertinoPage";
 import SanJosePage from "main/pages/SanJosePage";
 import SanMateoPage from "main/pages/SanMateoPage";
 import RedmondPage from "main/pages/RedmondPage";
+import HaywardPage from "main/pages/HaywardPage";
 import "bootstrap/dist/css/bootstrap.css";
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route exact path="/towns/SanJose" element={<SanJosePage />} />
         <Route exact path="/towns/SanMateo" element={<SanMateoPage />} />
         <Route exact path="/towns/Redmond" element={<RedmondPage />} />
+        <Route exact path="/towns/Hayward" element={<HaywardPage />} />
       </Routes>
     </BrowserRouter>
   );
