@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/towns/AvilaBeach" element={<AvilaBeachPage />} />
         <Route exact path="/towns/LosAlamos" element={<LosAlamosPage />} />
         <Route exact path="/towns/ArroyoGrande" element={<ArroyoGrandePage />} />
-	<Route exact path="/towns/Anaheim" element={<AnaheimPage />} />
+	      <Route exact path="/towns/Anaheim" element={<AnaheimPage />} />
       </Routes>
     </BrowserRouter>
   );
