@@ -4,8 +4,14 @@ import AvilaBeachPage from "main/pages/AvilaBeachPage";
 import LosAlamosPage from "main/pages/LosAlamosPage";
 import ArroyoGrandePage from "main/pages/ArroyoGrandePage";
 import AnaheimPage from "main/pages/Anaheim";
+import CupertinoPage from "main/pages/CupertinoPage";
+import SanJosePage from "main/pages/SanJosePage";
+import SanMateoPage from "main/pages/SanMateoPage";
+import RedmondPage from "main/pages/RedmondPage";
+import HaywardPage from "main/pages/HaywardPage";
 
 import "bootstrap/dist/css/bootstrap.css";
+
 
 
 function App() {
@@ -17,7 +23,12 @@ function App() {
         <Route exact path="/towns/AvilaBeach" element={<AvilaBeachPage />} />
         <Route exact path="/towns/LosAlamos" element={<LosAlamosPage />} />
         <Route exact path="/towns/ArroyoGrande" element={<ArroyoGrandePage />} />
-	<Route exact path="/towns/Anaheim" element={<Anaheim />} />
+	      <Route exact path="/towns/Anaheim" element={<Anaheim />} />
+        <Route exact path="/towns/Cupertino" element={<CupertinoPage />} />
+        <Route exact path="/towns/SanJose" element={<SanJosePage />} />
+        <Route exact path="/towns/SanMateo" element={<SanMateoPage />} />
+        <Route exact path="/towns/Redmond" element={<RedmondPage />} />
+        <Route exact path="/towns/Hayward" element={<HaywardPage />} />
       </Routes>
     </BrowserRouter>
   );
