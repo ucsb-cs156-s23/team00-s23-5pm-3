@@ -3,7 +3,7 @@ import HomePage from "main/pages/HomePage";
 import AvilaBeachPage from "main/pages/AvilaBeachPage";
 import LosAlamosPage from "main/pages/LosAlamosPage";
 import ArroyoGrandePage from "main/pages/ArroyoGrandePage";
-import AnaheimPage from "main/pages/Anaheim";
+import AnaheimPage from "main/pages/AnaheimPage";
 
 import "bootstrap/dist/css/bootstrap.css";
 
